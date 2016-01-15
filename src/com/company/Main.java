@@ -12,7 +12,7 @@ public class Main {
 
         for(int i = 0; i < a.length; i++){
 
-            if( i < 9) {
+            if( i < a.length - 1) {
                 int temp2 = a[i + 1];
                 a[i + 1] = temp1;
                 temp1 = temp2;
